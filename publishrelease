@@ -190,11 +190,11 @@ sed -i "s,/luarocks-[0-9.]*[0-9],/luarocks-$v,g" Download.mediawiki
 
 gawk '
 BEGIN {
-   print "'\'\'\''Version '$v\'\'\'' - '$(date +'%d/%b/%Y')' - [http://luarocks.org/releases/luarocks-'$v'.tar.gz Source tarball for Unix] -"
-   print "[http://luarocks.org/releases/luarocks-'$v'-windows-32.zip Windows binary (32-bit)] -"
-   print "[http://luarocks.org/releases/luarocks-'$v'-windows-64.zip Windows binary (64-bit)] -"
-   print "[http://luarocks.org/releases/luarocks-'$v'-linux-x86_64.zip Linux binary (x86_64)] -"
-   print "[http://luarocks.github.io/luarocks/releases other files]"
+   print "'\'\'\''Version '$v\'\'\'' - '$(date +'%d/%b/%Y')' - [https://luarocks.org/releases/luarocks-'$v'.tar.gz Source tarball for Unix] -"
+   print "[https://luarocks.org/releases/luarocks-'$v'-windows-32.zip Windows binary (32-bit)] -"
+   print "[https://luarocks.org/releases/luarocks-'$v'-windows-64.zip Windows binary (64-bit)] -"
+   print "[https://luarocks.org/releases/luarocks-'$v'-linux-x86_64.zip Linux binary (x86_64)] -"
+   print "[https://luarocks.github.io/luarocks/releases other files]"
    print ""
 }
 // {

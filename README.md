@@ -1,4 +1,4 @@
-<p align="center"><a href="http://luarocks.org"><img border="0" src="http://luarocks.github.io/luarocks/luarocks.png" alt="LuaRocks" width="500px"></a></p>
+<p align="center"><a href="https://luarocks.org"><img border="0" src="https://luarocks.github.io/luarocks/luarocks.png" alt="LuaRocks" width="500px"></a></p>
 
 A package manager for Lua modules.
 
@@ -8,7 +8,7 @@ A package manager for Lua modules.
 [![Coverage Status](https://codecov.io/gh/luarocks/luarocks/coverage.svg?branch=master)](https://codecov.io/gh/luarocks/luarocks/branch/master)
 [![Join the chat at https://gitter.im/luarocks/luarocks](https://badges.gitter.im/luarocks/luarocks.svg)](https://gitter.im/luarocks/luarocks)
 
-Main website: [luarocks.org](http://www.luarocks.org)
+Main website: [luarocks.org](https://www.luarocks.org)
 
 It allows you to install Lua modules as self-contained packages called
 [*rocks*][1], which also contain version [dependency][2] information. This
@@ -20,14 +20,14 @@ rocks trees.
 
 ## Installing
 
-* [Installation instructions for Unix](http://luarocks.org/en/Installation_instructions_for_Unix) (Linux, BSDs, etc.)
-* [Installation instructions for macOS](http://luarocks.org/en/Installation_instructions_for_macOS)
-* [Installation instructions for Windows](http://luarocks.org/en/Installation_instructions_for_Windows)
+* [Installation instructions for Unix](https://luarocks.org/en/Installation_instructions_for_Unix) (Linux, BSDs, etc.)
+* [Installation instructions for macOS](https://luarocks.org/en/Installation_instructions_for_macOS)
+* [Installation instructions for Windows](https://luarocks.org/en/Installation_instructions_for_Windows)
 
 ## License
 
-LuaRocks is free software and uses the [MIT license](http://luarocks.org/en/License), the same as Lua 5.x.
+LuaRocks is free software and uses the [MIT license](https://luarocks.org/en/License), the same as Lua 5.x.
 
-[1]: http://luarocks.org/en/Types_of_rocks
-[2]: http://luarocks.org/en/Dependencies
-[3]: http://luarocks.org/en/Rocks_repositories
+[1]: https://luarocks.org/en/Types_of_rocks
+[2]: https://luarocks.org/en/Dependencies
+[3]: https://luarocks.org/en/Rocks_repositories

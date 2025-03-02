@@ -80,7 +80,7 @@ describe("luarocks lint #integration", function()
             package = "no_build_table"
             version = "0.1-1"
             source = {
-               url = "http://example.com/foo/tar.gz"
+               url = "https://example.com/foo/tar.gz"
             }
             description = {
                summary = "A rockspec with no build field",
@@ -97,7 +97,7 @@ describe("luarocks lint #integration", function()
             package = "nodesc"
             version = "0.1-1"
             source = {
-               url = "http://example.com/foo/tar.gz"
+               url = "https://example.com/foo/tar.gz"
             }
             dependencies = {
                "lua >= 5.1"

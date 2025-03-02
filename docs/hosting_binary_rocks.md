@@ -29,13 +29,13 @@ my_rock` should work!
 
 Step 4: upload the contents of `my_dir`, manifest files and rocks, into a HTTP
 server and use its URL as the argument of `--server`. For example, if you
-uploaded it into `http://example.com/binary-rock/manifest-5.3` and
-`http://example.com/binary-rock/my-rock-1.0-1-macosx-x86_64.rock`, then using
-`luarocks install --server=http://example.com/binary-rock my_rock` should
+uploaded it into `https://example.com/binary-rock/manifest-5.3` and
+`https://example.com/binary-rock/my-rock-1.0-1-macosx-x86_64.rock`, then using
+`luarocks install --server=https://example.com/binary-rock my_rock` should
 fetch the manifest, read it, find the rock name, download it and install it.
 
 Note that in a repo that contains both binary and source rocks, running
-`luarocks install http://example.com/binary-rock my_rock` will download and
-install the binary rock, and  `luarocks build http://example.com/binary-rock
+`luarocks install https://example.com/binary-rock my_rock` will download and
+install the binary rock, and  `luarocks build https://example.com/binary-rock
 my_rock` will download, compile and install the source rock.
 

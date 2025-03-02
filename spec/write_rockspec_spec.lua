@@ -14,7 +14,7 @@ describe("luarocks write_rockspec tests #integration", function()
    end)
 
    it("fails with invalid zip", function()
-      assert.is_false(run.luarocks_bool("write_rockspec http://example.com/invalid.zip"))
+      assert.is_false(run.luarocks_bool("write_rockspec https://example.com/invalid.zip"))
    end)
 
    describe("from #git #unix", function()
@@ -64,7 +64,7 @@ describe("luarocks write_rockspec tests #integration", function()
       it("runs with full flags", function()
          finally(function() os.remove("testrock-dev-1.rockspec") end)
          assert.is_true(run.luarocks_bool("write_rockspec git://localhost/testrock --lua-versions=5.1,5.2 --license=\"MIT/X11\" "
-                                             .. " --homepage=\"http://www.luarocks.org\" --summary=\"A package manager for Lua modules\" "))
+                                             .. " --homepage=\"https://www.luarocks.org\" --summary=\"A package manager for Lua modules\" "))
          assert.is.truthy(lfs.attributes("testrock-dev-1.rockspec"))
          -- TODO check contents
       end)

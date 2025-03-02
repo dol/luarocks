@@ -2,7 +2,7 @@
 --- Configuration for LuaRocks.
 -- Tries to load the user's configuration file and
 -- defines defaults for unset values. See the
--- <a href="http://luarocks.org/en/Config_file_format">config
+-- <a href="https://luarocks.org/en/Config_file_format">config
 -- file format documentation</a> for details.
 --
 -- End-users shouldn't edit this file. They can override any defaults
@@ -359,7 +359,7 @@ local function make_defaults(lua_version, target_cpu, platforms, home)
       defaults.makefile = "Makefile"
       defaults.external_deps_patterns = {
          bin = { "?.exe", "?.bat" },
-         -- mingw lookup list from http://stackoverflow.com/a/15853231/1793220
+         -- mingw lookup list from https://stackoverflow.com/a/15853231/1793220
          -- ...should we keep ?.lib at the end? It's not in the above list.
          lib = { "lib?.dll.a", "?.dll.a", "lib?.a", "cyg?.dll", "lib?.dll", "?.dll", "?.lib" },
          include = { "?.h" }

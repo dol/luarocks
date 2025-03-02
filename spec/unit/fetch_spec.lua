@@ -241,26 +241,26 @@ describe("luarocks fetch #unit", function()
                package="missing_mandatory_field"
                version="1.0-1"
                source = {
-                  url = "http://example.com/foo.tar.gz"
+                  url = "https://example.com/foo.tar.gz"
                }
             ]])
             rockspec = fetch.load_local_rockspec("missing_mandatory_field-1.0-1.rockspec", true)
             assert.same(rockspec.name, "missing_mandatory_field")
             assert.same(rockspec.version, "1.0-1")
-            assert.same(rockspec.source.url, "http://example.com/foo.tar.gz")
+            assert.same(rockspec.source.url, "https://example.com/foo.tar.gz")
 
             write_file("unknown_field-1.0-1.rockspec", [[
                package="unknown_field"
                version="1.0-1"
                source = {
-                  url = "http://example.com/foo.tar.gz"
+                  url = "https://example.com/foo.tar.gz"
                }
                unknown="foo"
             ]])
             rockspec = fetch.load_local_rockspec("unknown_field-1.0-1.rockspec", true)
             assert.same(rockspec.name, "unknown_field")
             assert.same(rockspec.version, "1.0-1")
-            assert.same(rockspec.source.url, "http://example.com/foo.tar.gz")
+            assert.same(rockspec.source.url, "https://example.com/foo.tar.gz")
 
             -- The previous calls fail if the detailed checking is done
             path.use_tree(testing_paths.testing_tree)
@@ -304,7 +304,7 @@ describe("luarocks fetch #unit", function()
                package="invalid_rockspec_name"
                version="1.0-1"
                source = {
-                  url = "http://example.com/foo.tar.gz"
+                  url = "https://example.com/foo.tar.gz"
                }
                build = {
 
@@ -320,7 +320,7 @@ describe("luarocks fetch #unit", function()
                package="inconsistent_versions"
                version="1.0-2"
                source = {
-                  url = "http://example.com/foo.tar.gz"
+                  url = "https://example.com/foo.tar.gz"
                }
                build = {
 

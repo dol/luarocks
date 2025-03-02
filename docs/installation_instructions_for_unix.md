@@ -1,7 +1,7 @@
 # Installation instructions for Unix
 
 First of all, get the [latest ".tar.gz" package
-here](http://luarocks.github.io/luarocks/releases).
+here](https://luarocks.github.io/luarocks/releases).
 
 The LuaRocks build system for Unix is based on a simple "configure" script and
 a Makefile. The "configure" script offers some flags that are useful for
@@ -32,7 +32,7 @@ package tarball, extract, build and install it. (Replace 5.3.5 with the
 latest Lua version.)
 
 ```
--$ curl -R -O http://www.lua.org/ftp/lua-5.3.5.tar.gz
+-$ curl -R -O https://www.lua.org/ftp/lua-5.3.5.tar.gz
 -$ tar -zxf lua-5.3.5.tar.gz
 -$ cd lua-5.3.5
 -$ make linux test
@@ -41,7 +41,7 @@ latest Lua version.)
 
 Once Lua and its dependencies are installed, it is time to install LuaRocks:
 
-* Download and unpack [latest ".tar.gz" file](http://luarocks.github.io/luarocks/releases).
+* Download and unpack [latest ".tar.gz" file](https://luarocks.github.io/luarocks/releases).
 
 * Run `./configure --with-lua-include=/usr/local/include`. (This will attempt
   to detect your installation of Lua. If you get any error messages, see the

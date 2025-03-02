@@ -72,11 +72,11 @@ describe("LuaRocks build #integration", function()
 
       it("with --only-sources", function()
          assert.is_true(run.luarocks_bool("download --server=" .. testing_paths.fixtures_dir .. "/a_repo --rockspec a_rock 1.0"))
-         assert.is_false(run.luarocks_bool("build --only-sources=\"http://example.com\" a_rock-1.0-1.rockspec"))
+         assert.is_false(run.luarocks_bool("build --only-sources=\"https://example.com\" a_rock-1.0-1.rockspec"))
          assert.is.falsy(lfs.attributes(testing_paths.testing_sys_rocks .. "/a_rock/1.0-1/a_rock-1.0-1.rockspec"))
 
          assert.is_true(run.luarocks_bool("download --server=" .. testing_paths.fixtures_dir .. "/a_repo --source a_rock 1.0"))
-         assert.is_true(run.luarocks_bool("build --only-sources=\"http://example.com\" a_rock-1.0-1.src.rock"))
+         assert.is_true(run.luarocks_bool("build --only-sources=\"https://example.com\" a_rock-1.0-1.src.rock"))
          assert.is.truthy(lfs.attributes(testing_paths.testing_sys_rocks .. "/a_rock/1.0-1/a_rock-1.0-1.rockspec"))
 
          assert.is_true(os.remove("a_rock-1.0-1.rockspec"))

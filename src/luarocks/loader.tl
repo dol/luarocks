@@ -299,7 +299,7 @@ function loader.which(module: string, where?: string): string, string, string, s
 end
 
 --- Package loader for LuaRocks support.
--- See <a href="http://www.lua.org/manual/5.4/manual.html#pdf-require">require()</a>
+-- See <a href="https://www.lua.org/manual/5.4/manual.html#pdf-require">require()</a>
 -- in the Lua reference manual for details on the require() mechanism.
 -- The LuaRocks loader works by searching in installed rocks that match the
 -- current LuaRocks context. If module is not part of the

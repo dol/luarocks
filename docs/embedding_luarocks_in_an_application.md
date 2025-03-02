@@ -27,7 +27,7 @@ config-5.x.lua file could contain something like this:
 
 ```lua
  rocks_servers = {
-    "http://www.example.com/my-app-plugins/rocks/"
+    "https://www.example.com/my-app-plugins/rocks/"
  }
 ```
 

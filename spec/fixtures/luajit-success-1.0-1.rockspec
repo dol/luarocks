@@ -9,7 +9,7 @@ description = {
    detailed = [[
 Use luajit dependency when running with rockspec_format >= 3.0.
 ]],
-   homepage = "http://luarocks.org/",
+   homepage = "https://luarocks.org/",
    license = "MIT/X license"
 }
 dependencies = {

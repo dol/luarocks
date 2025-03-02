@@ -11,10 +11,10 @@ For number fields, strings are accepted and converted using tonumber().
    * **description.summary** (string) - A one-line description of the package. Example: "Network support for the Lua language"
    * **description.detailed** (string) - A longer description of the package. Example: "LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet."
    * **description.license** (string) - The license used by the package. A short name, such as "MIT" and "GPL-2" is preferred. Software using the same license as Lua 5.x should use "MIT".
-   * **description.homepage** (string) - An URL for the project. This is not the URL for the tarball, but the address of a website. Example: "http://github.com/keplerproject/rings"
-   * **description.issues_url** (string) (since 3.0) - An URL for the project's issue tracker. Example: "http://github.com/keplerproject/rings/issues"
+   * **description.homepage** (string) - An URL for the project. This is not the URL for the tarball, but the address of a website. Example: "https://github.com/keplerproject/rings"
+   * **description.issues_url** (string) (since 3.0) - An URL for the project's issue tracker. Example: "https://github.com/keplerproject/rings/issues"
    * **description.maintainer** (string) - Contact information for the _rockspec_ maintainer (which may or may not be the package maintainer -- contact for the package maintainer can usually be obtained through the address in the homepage field). Example: "John Doe &lt;john@doe.gov&gt;"
-   * **description.labels** (array of strings) (since 3.0) - A list of short strings that specify labels for categorization of this rock. See the list of labels at [http://luarocks.org] for inspiration. Example: { "crypto", "network", "tls", "https" }
+   * **description.labels** (array of strings) (since 3.0) - A list of short strings that specify labels for categorization of this rock. See the list of labels at [https://luarocks.org] for inspiration. Example: { "crypto", "network", "tls", "https" }
 
 ## Dependency information
 
@@ -29,7 +29,7 @@ Dependencies are represented in LuaRocks through strings with a package name fol
 ## Build rules
 
 * **source** (table, mandatory field) - Contains information on how to fetch sources to build this rock. Supports [per-platform overrides](platform-overrides).
-   * **source.url** (string, mandatory field) - the URL of the package source archive. Examples: "http://github.com/downloads/keplerproject/wsapi/wsapi-1.3.4.tar.gz", "git://github.com/keplerproject/wsapi.git". Note that this field is ignored when running [luarocks make](luarocks_make.md), which uses the sources from your current directory instead. Different protocols are supported:
+   * **source.url** (string, mandatory field) - the URL of the package source archive. Examples: "https://github.com/downloads/keplerproject/wsapi/wsapi-1.3.4.tar.gz", "git://github.com/keplerproject/wsapi.git". Note that this field is ignored when running [luarocks make](luarocks_make.md), which uses the sources from your current directory instead. Different protocols are supported:
       * `cvs://` - for the CVS source control manager
       * `file://` - for URLs in the local filesystem (note that for Unix paths, the root slash is the third slash, resulting in paths like `"file:///full/path/filename"`
       * `ftp://` - for FTP URLs

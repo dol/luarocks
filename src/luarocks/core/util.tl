@@ -170,7 +170,7 @@ function util.deep_merge_under(dst: {any: any}, src: {any: any})
    end
 end
 
--- from http://lua-users.org/wiki/SplitJoin
+-- from https://lua-users.org/wiki/SplitJoin
 -- by Philippe Lhoste
 function util.split_string(str: string, delim: string, maxNb?: number): {string}
    -- Eliminate bad cases...

@@ -19,7 +19,7 @@ FILE: c_module-1.0-1.rockspec
 package = "c_module"
 version = "1.0-1"
 source = {
-   url = "http://example.com/c_module"
+   url = "https://example.com/c_module"
 }
 build = {
    type = "builtin",

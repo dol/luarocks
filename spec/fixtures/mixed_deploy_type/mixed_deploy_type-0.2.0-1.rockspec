@@ -1,10 +1,10 @@
 package = "mixed_deploy_type"
 version = "0.2.0-1"
 source = {
-   url = "http://example.com"
+   url = "https://example.com"
 }
 description = {
-   homepage = "http://example.com",
+   homepage = "https://example.com",
    license = "*** please specify a license ***"
 }
 dependencies = {}

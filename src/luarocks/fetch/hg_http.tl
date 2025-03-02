@@ -1,10 +1,10 @@
 
 --- Fetch back-end for retrieving sources from hg repositories
--- that use http:// transport. For example, for fetching a repository
+-- that use https:// transport. For example, for fetching a repository
 -- that requires the following command line:
--- `hg clone http://example.com/foo`
+-- `hg clone https://example.com/foo`
 -- you can use this in the rockspec:
--- source = { url = "hg+http://example.com/foo" }
+-- source = { url = "hg+https://example.com/foo" }
 local record hg_http
 end
 

@@ -66,7 +66,7 @@ p.manifest {
 <body>
 <h1>Available rocks</h1>
 <p>
-Lua modules available from this location for use with <a href="http://www.luarocks.org">LuaRocks</a>:
+Lua modules available from this location for use with <a href="https://www.luarocks.org">LuaRocks</a>:
 </p>
 <table class="main">
 ]]

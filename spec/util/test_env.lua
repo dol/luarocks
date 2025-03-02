@@ -859,7 +859,7 @@ local function create_configs()
 
    test_env.write_file(dir_path(testrun_dir, "testing_config.lua"), config_content .. " \nweb_browser = \"true\"")
    test_env.write_file(dir_path(testrun_dir, "testing_config_show_downloads.lua"), config_content
-                  .. "show_downloads = true \n rocks_servers={\"http://luarocks.org/repositories/rocks\"}")
+                  .. "show_downloads = true \n rocks_servers={\"https://luarocks.org/repositories/rocks\"}")
    test_env.write_file(dir_path(testrun_dir, "testing_config_no_downloader.lua"), config_content
                   .. "variables = { WGET = 'invalid', CURL = 'invalid' }")
 

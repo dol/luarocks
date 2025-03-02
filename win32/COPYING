@@ -6,7 +6,7 @@ following licenses:
 
 * find.exe, mv.exe, wget.exe, ls.exe, md5sum.exe,
   cp.exe, and uname.exe are part of UnxUtils, check
-  http://unxutils.sourceforge.net/ for license information.
+  https://unxutils.sourceforge.net/ for license information.
 
 * Files under win32/lua5.1, except for Microsoft.VC80.CRT.manifest and msv*.*,
   are covered by another license, please see COPYING_lua for details.

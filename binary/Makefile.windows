@@ -61,7 +61,7 @@ $(WINDOWS_DEPS_DIR)/lib/libz.a: $(BUILD_WINDOWS_DEPS_DIR)/zlib-$(ZLIB_VERSION)
 
 $(BUILD_WINDOWS_DEPS_DIR)/bzip2-$(BZIP2_VERSION).tar.gz:
 	mkdir -p $(@D)
-	cd $(BUILD_WINDOWS_DEPS_DIR) && curl -OL http://downloads.sourceforge.net/project/bzip2/bzip2-$(BZIP2_VERSION).tar.gz
+	cd $(BUILD_WINDOWS_DEPS_DIR) && curl -OL https://downloads.sourceforge.net/project/bzip2/bzip2-$(BZIP2_VERSION).tar.gz
 $(BUILD_WINDOWS_DEPS_DIR)/bzip2-$(BZIP2_VERSION): $(BUILD_WINDOWS_DEPS_DIR)/bzip2-$(BZIP2_VERSION).tar.gz
 	cd $(BUILD_WINDOWS_DEPS_DIR) && tar zxvpf bzip2-$(BZIP2_VERSION).tar.gz
 $(WINDOWS_DEPS_DIR)/lib/libbz2.a: $(BUILD_WINDOWS_DEPS_DIR)/bzip2-$(BZIP2_VERSION)

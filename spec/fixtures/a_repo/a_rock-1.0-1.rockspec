@@ -5,7 +5,7 @@ source = {
 }
 description = {
    summary = "An example rockspec",
-   homepage = "http://www.example.com"
+   homepage = "https://www.example.com"
 }
 dependencies = {
    "lua >= 5.1"

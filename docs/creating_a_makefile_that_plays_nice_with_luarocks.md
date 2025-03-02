@@ -44,7 +44,7 @@ like this:
 package = "lrtest"
 version = "1.0-1"
 source = {
-   url = "http://..."
+   url = "https://..."
 }
 build = {
    type = "make",

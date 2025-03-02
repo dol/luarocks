@@ -50,7 +50,7 @@ describe("LuaRocks build #unit", function()
                package = "lua_module"
                version = "1.0-1"
                source = {
-                  url = "http://example.com/lua_module"
+                  url = "https://example.com/lua_module"
                }
                build = {
                   type = "builtin",
@@ -204,7 +204,7 @@ describe("LuaRocks build #unit", function()
                package = "test",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/test"
+                  url = "https://example.com/test"
                },
                build = {}
             }
@@ -220,7 +220,7 @@ describe("LuaRocks build #unit", function()
                package = "c_module",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/c_module"
+                  url = "https://example.com/c_module"
                },
                build = {
                   type = "builtin",
@@ -241,7 +241,7 @@ describe("LuaRocks build #unit", function()
                package = "c_module",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/c_module"
+                  url = "https://example.com/c_module"
                },
                build = {
                   type = "builtin",
@@ -261,7 +261,7 @@ describe("LuaRocks build #unit", function()
                package = "c_module",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/c_module"
+                  url = "https://example.com/c_module"
                },
                build = {
                   type = "builtin",
@@ -283,7 +283,7 @@ describe("LuaRocks build #unit", function()
                package = "test",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/test"
+                  url = "https://example.com/test"
                },
                build = {
                   type = "builtin",
@@ -321,7 +321,7 @@ describe("LuaRocks build #unit", function()
                package = "c_module",
                version = "1.0-1",
                source = {
-                  url = "http://example.com/c_module"
+                  url = "https://example.com/c_module"
                },
                external_dependencies = {
                   FIXTUREDEP = {

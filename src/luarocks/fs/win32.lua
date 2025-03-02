@@ -1,5 +1,5 @@
 --- Windows implementation of filesystem and platform abstractions.
--- Download http://unxutils.sourceforge.net/ for Windows GNU utilities
+-- Download https://unxutils.sourceforge.net/ for Windows GNU utilities
 -- used by this module.
 local win32 = {}
 

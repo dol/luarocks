@@ -47,7 +47,7 @@ describe("luarocks doc #integration", function()
                   url = "file://test.lua"
                }
                description = {
-                  homepage = "http://www.example.com"
+                  homepage = "https://www.example.com"
                }
                build = {
                   type = "builtin",

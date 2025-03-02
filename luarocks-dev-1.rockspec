@@ -15,7 +15,7 @@ description = {
       required, the correct version is loaded. LuaRocks supports both
       local and remote repositories, and multiple local rocks trees.
    ]],
-   homepage = "http://www.luarocks.org",
+   homepage = "https://www.luarocks.org",
    issues_url = "https://github.com/luarocks/luarocks/issues",
    maintainer = "Hisham Muhammad",
    license = "MIT",

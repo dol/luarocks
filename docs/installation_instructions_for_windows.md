@@ -4,14 +4,14 @@ There are two packages for Windows:
 
 * if you already have a Lua installation, the <b>single binary</b> package
   which you can use: get the [latest windows-32.zip file
-  here](http://luarocks.github.io/luarocks/releases), unpack it and you'll
+  here](https://luarocks.github.io/luarocks/releases), unpack it and you'll
   have a <tt>luarocks.exe</tt> ready to use. Make sure the executable is
   available from your executable PATH so you can run <tt>luarocks</tt> from
   the command line the same way you run <tt>lua</tt>.
 
 * we also provide an all-in-one package which includes Lua 5.1 and LuaRocks in
   source format; get the [latest win32.zip file
-  here](http://luarocks.github.io/luarocks/releases). The instructions below
+  here](https://luarocks.github.io/luarocks/releases). The instructions below
   are about this package.
 
 This page refers to the second method. The all-in-one package includes
@@ -122,7 +122,7 @@ example, luarocks\config.lua could contain something like this:
 
 ```
 repositories = {
-    "http://www.example.com/rocks/"
+    "https://www.example.com/rocks/"
  }
 ```
 

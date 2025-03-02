@@ -35,5 +35,5 @@ git clone git://github.com/luarocks/luarocks.git
 
 There is also a web interface available at:
 
-* [http://github.com/luarocks/luarocks](http://github.com/luarocks/luarocks)
+* [https://github.com/luarocks/luarocks](https://github.com/luarocks/luarocks)
 

@@ -35,7 +35,7 @@ description = {
       Here we would put a detailed, typically
       paragraph-long description.
    ]],
-   homepage = "http://...", -- We don't have one yet
+   homepage = "https://...", -- We don't have one yet
    license = "MIT/X11" -- or whatever you like
 }
 dependencies = {
@@ -320,7 +320,7 @@ something like this:
 
 ```lua
 source = {
-   url = "http://me.github.com/luafruits/luafruits-1.0.tar.gz"
+   url = "https://me.github.com/luafruits/luafruits-1.0.tar.gz"
 }
 ```
 
@@ -342,7 +342,7 @@ description = {
       Here we would put a detailed, typically
       paragraph-long description.
    ]],
-   homepage = "http://me.github.com/luafruits",
+   homepage = "https://me.github.com/luafruits",
    license = "MIT/X11"
 }
 dependencies = {
